@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+progress::-moz-progress-bar {
+  @apply rounded-full bg-blue-500;
+}
+progress::-webkit-progress-value {
+  @apply rounded-full bg-blue-500;
+}
+progress {
+  @apply rounded-full bg-blue-500;
+}
